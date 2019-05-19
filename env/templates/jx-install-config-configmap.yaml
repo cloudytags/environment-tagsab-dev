@@ -1,0 +1,31 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAODuuiyCW/D7EdHHPxxGB/wwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkN2RiNjk5MzEtMjVhMy00ZTRiLWE3MjItMTNiOWU2NGE3ZTgy
+    MB4XDTE5MDUxOTA4NTMwNVoXDTI0MDUxNzA5NTMwNVowLzEtMCsGA1UEAxMkN2Ri
+    Njk5MzEtMjVhMy00ZTRiLWE3MjItMTNiOWU2NGE3ZTgyMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEA7/DYYBKcGZuFQ21iqn3SJmhkSbC5QIw/cKSuyX5P
+    fXDjKp5MBYdDVpm6fRXzkMvGXr3rh5nKcJeSxAbWkMPxPYF02ZAWazFjXzl7l48L
+    emhNGs6IsANfyDjMTIe7Bp4E6kJ5v35bpy1fiOYZ+TutODw5vprAVdV6Gdr2O2Wj
+    khi1XMnpxNWRtyN47eQasvkyBY/XFif1FhHs8bOoo+Hlmn0vhHMWfaxhKuZU56Tn
+    IwmJrQBlsdhp4UWeueAcJb+854okdKU7wLkOAAUl09+gcl/GFk+ZUshuCRicazLg
+    Pk6Nvz+ATxpm1HtbxW+JN3oCeaO8QyO2jyKJ8n2frvyYyQIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    ySnh+ucAEU5qHGrD5bzRjwO7fJxTwjKEQNDDC47KwVoV2ad+j0oe7QED1Sr/6m+W
+    Fz8MMEPl+H6PdkwbclSW8A3WiZzFw6Se87UC1ZTJ2AT6hHOELzOR/ODmADTPVzAW
+    XNZOpRskGRjmgRqFD0pIhBLJqCMxaBUwUAMoohgi2ChsmOjuQpH+nmjQIQ9BSLf7
+    IbsKgx9xBPBs0Ztj69SgtJpLeBQZOjD/jn32DrwCaRPqjUuu7yCO82GmgRXrHgfh
+    i3qgYlNtcVd7PcZZNU/zhOABEJkaSfkR0JSRp5fEISfo6k/tdAjutqBV6n9xa7Ms
+    f++zYKnjnsXlNp0hQ8GXiQ==
+    -----END CERTIFICATE-----
+  jx-install-version: 2.0.118
+  kubeProvider: gke
+  secretsLocation: vault
+  server: https://35.200.249.232
+  systemVaultName: jx-vault-tagscloudab-t
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
